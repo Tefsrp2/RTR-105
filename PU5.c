@@ -24,7 +24,7 @@ int main()
             }
              if (f>b)
                 {
-                    printf ("Programmas darbība ir pārtraukta, jo Jūsu izvēēttē skaitļa faktoriāla vērtība neatbildīs izvēlētajam datu tipam.");
+                    printf ("Programmas darbība ir pārtraukta, jo Jūsu izvēlētā skaitļa faktoriāla vērtība neatbildīs izvēlētajam datu tipam.");
                 }
                  else
                 {
@@ -51,7 +51,7 @@ int main()
                 }        
                 if (f>b)
                 {  
-                    printf ("Programmas darbība ir pārtraukta, jo Jūsu izvēlētē skaitļa faktoriāla vērtība neatbildīs izvēlētajam datu tipam.");
+                    printf ("Programmas darbība ir pārtraukta, jo Jūsu izvēlētā skaitļa faktoriāla vērtība neatbildīs izvēlētajam datu tipam.");
                 }
                 else
                 {
@@ -78,7 +78,7 @@ int main()
             }
             if (f>b)
             {
-                printf ("Programmas darbība ir pārtraukta, jo Jūsu izvēlētē skaitļa faktoriāla vērtība neatbildīs izvēlētajam datu tipam.");
+                printf ("Programmas darbība ir pārtraukta, jo Jūsu izvēlētā skaitļa faktoriāla vērtība neatbildīs izvēlētajam datu tipam.");
             }
             else
             {
