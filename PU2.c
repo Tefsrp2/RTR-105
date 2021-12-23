@@ -7,7 +7,7 @@ int main()
   printf("Ludzu ievadiet naturalu skaitli: ");
   scanf("%d", &b);
 
-  printf("%d Binarais skaitlis ir:\n", b);
+  printf("Binarais skaitlis ir:\n", b);
 
   for (d = 8; d >= 0; d--)
   {
