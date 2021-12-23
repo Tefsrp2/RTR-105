@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a;
-long long int c, b;
+long int a, b;
+long long int c;
 
 printf("Cienījamais lietotāj, lūdzu ievadi pirmo skaitli: ");
-scanf("%d", &a);
+scanf("%ld", &a);
 printf("Cienījamais lietotāj, lūdzu ievadi otro skaitli: ");
-scanf("%lli", &b);
+scanf("%ld", &b);
 
 c=a*b;
 printf("Rezultāts pēc ievadīto skaitļu reizināšanas: %lli \n", c);
