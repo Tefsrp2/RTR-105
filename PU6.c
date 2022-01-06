@@ -1,60 +1,62 @@
 #include <stdio.h>
 
-void f1(){
+void programmasSakums() {
+    printf("Šī ir programma, kas veic elementārus aprēķinus \n ");
+} //bez argumentiem, bez return
 
-printf("Programmas darbība tiek uzsākta.\n\n");
+void ievaditaisSkaitlis(int skaitlis1, int skaitlis2)
+{
+    if (skaitlis1>skaitlis2)
+    {
+    printf("Lielakais no ievadītajiem skaitļiem: %d \n", skaitlis1);
+    printf("Mazakais no ievaditajiem skaitļiem: %d \n", skaitlis2);
+    }
+    else
+    {
+        printf("Lielakais no ievaditajiem skaitliem: %d \n", skaitlis2);
+        printf("Mazakais no ievadītajiem skaitļiem: %d \n", skaitlis1);
+    }
+} //ar argumentiem, bez return
+
+float spriegums()   //bez argumentiem, ar return
+{
+  float u, r;
+  float i;
+  printf("Tagad programma aprēķinās strāvas stiprumu\n");
+  printf("Ievadiet sprieguma vērtību (voltos): ");
+  scanf("%f", &u);
+  printf("Ievadiet pretestības vērtību (omos):  ");
+  scanf("%f", &r);
+  i = u/r;
+  return i;
+
 }
-void f2(int f2_num){
-        if(f2_num==6){
-        
-        printf("Lieliski! Visi uzdevumi ir izpildīti. Tagad laiks ķerties klāt laboratorijas darbiem.\n");
-         }
-         if(f2_num<6){
-        
-          printf("Diemžēl neesat izpildījis visus programmēšanas uzdevumus. Tos vēl var paspēt izpildīt līdz 31.12.2021.\n");
-        }
-        if(f2_num>6){
-            printf("Jūs esat pārcenties. Tik daudz uzdevumu nemaz nav, taču tas ir labs zināšanu un prasmju papildinājums.\n.");
-        }
-}
 
-int f3(){
-int f3_num;
+float spriegums2(float jauda, float spriegums) //ar argumentiem, ar return
+   {
+   float i1;
+   i1 = jauda/spriegums;
+   return i1;
+   }
 
-printf("Tagad, lūdzu, ievadiet paredzamo laiku stundās 1 laboratorijas darbam: ");
-  scanf("%d",&f3_num);
 
-return f3_num;
-}
-
-int f4(int f3_out){
-int f4_out;
-f4_out = f3_out*2;
-return f4_out;
-}
-
-int main(){
-
-f1();
-
-int f2_num;
-
-printf("Lūdzu, ievadiet izpildīto programmēšanas uzdevumu skaitu.\n");
-  scanf("%d",&f2_num);
-  f2(f2_num);
-
-  int f3_out;
-
-printf("Šajā programmas daļā būs jāievada cits skaitlis.\n.\n.\n.\n");
-
-  f3_out = f3();
-
-printf("Trešajā funkcijā tika ievadīts šāds stundu skaits - %d\n\n",f3_out);
-  int f4_out;
-
-printf("Ievadītais skaitlis tiks divkāršots.\n\n");
-  f4_out = f4(f3_out);
-
-printf("Faktiskais stundu skaits 1 laboratorijas darba izstrādei varētu būt: %d\n",f4_out);
-return 0;
+int main()
+{
+    programmasSakums();
+    int a, b;
+    float p1, u1;
+    float i;
+    printf("Ievadiet divus skaitļus: ");
+    scanf("%d" "%d", &a, &b);
+    ievaditaisSkaitlis(a, b);
+    printf("Tas bija tests. Tagad programma veiks īstos aprēķinus\n");
+    i = spriegums();
+    printf("Strāvas stiprums (ampēros): %f \n ", i);
+    printf("Tagad programma aprēķinās strāvas stiprumu pēc citas formulas\n");
+    printf("Ievadiet jaudu (vatos): ");
+    scanf("%f", &p1);
+    printf("Ievadiet spriegumu (voltos): ");
+    scanf("%f", &u1);
+    printf("Strāvas stiprums (ampēros): %f\n", spriegums2(p1, u1));
+    return 0;
 }
