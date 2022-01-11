@@ -34,7 +34,7 @@ scanf("%f", &eps);
 	
 		for(k=0;k<n;k++)
 	
-		    integr3=-h*atan(-a+k*h)+atan(-a+(k+1)*h)/2);
+		    integr3=((-h)*atan(-a+k*h)+atan(-a+(k+1)*h))/2;
 	
 }
 printf("Integrala vertiba pec taisnsturu metodes: %f\n",integr2);
