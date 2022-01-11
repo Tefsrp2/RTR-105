@@ -21,7 +21,7 @@ void main()
        
        d=1/(pow(-x + c,2) + 1);
        e=1/(pow(-x,2) + 1);
-       printf("%10.3f ||\t%10.3f\t||%10.3f\t   || %10.3f\t||%10.3f\t    ||%10.3f\n",x,atan(-x), 1/(pow(-x,2) + 1), (atan(-x) - atan(-x-c))/c, (-2 * (-x))/( pow(-x,4) +2 * pow(-x,2) + 1 ), d-e/c);
+       printf("%10.3f ||\t%10.3f\t||%10.3f\t   || %10.3f\t||%10.3f\t    ||%10.3f\n",x,atan(-x), 1/(pow(-x,2) + 1), (atan(-x) - atan(-x-c))/c, (-2 * (-x))/( pow(-x,4) +2 * pow(-x,2) + 1 ), (d-e)/c);
         x+=c;
    }
 }
