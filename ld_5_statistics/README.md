@@ -1,5 +1,6 @@
 Koda risinājums
->#include <stdio.h>
+'''
+#include <stdio.h>
 
 void kartosana();
 void printArray();
@@ -64,3 +65,4 @@ void printArray(int rinda[], int size){
 		printf("%d", rinda[i]);
 	}
 }
+'''
