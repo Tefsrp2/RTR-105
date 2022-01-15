@@ -46,7 +46,7 @@ int main(){
 ```
 
 #### Kompilācijas rezultāti
-![This is an image] ../blob/main/ld2_roots/ld_2_result.png
+![This is an image] (https://github.com/Tefsrp2/RTR-105/blob/main/ld2_roots/ld_2_result.png)
 
 
 
