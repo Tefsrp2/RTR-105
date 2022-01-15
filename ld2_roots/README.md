@@ -46,7 +46,7 @@ int main(){
 ```
 
 #### Kompilācijas rezultāti
-/ld2_roots/ld_2_result.png
+/ld_2_result.png
 
 
 
