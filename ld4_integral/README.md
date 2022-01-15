@@ -64,3 +64,5 @@ printf("Integrala vertiba pec Simpsona metodes: %f\n", integr4);
 ![This is an image](https://github.com/Tefsrp2/RTR-105/blob/main/ld4_integral/ld_4_result.png)
 
 #### Saite uz grafiku [Grafiks] https://github.com/Tefsrp2/RTR-105/blob/main/ld4_integral/LD_4_grafiks.svg
+#### Saite uz pierādījuma attēlu no WolfrAlpha kalkulatora [Grafiks] https://github.com/Tefsrp2/RTR-105/blob/main/ld4_integral/ld_4_pieradijums.png
+
