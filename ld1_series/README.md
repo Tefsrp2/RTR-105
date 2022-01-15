@@ -1,5 +1,5 @@
-```
 Koda risinājums
+```
 #include <stdio.h>
 #include <math.h>
  double mans_atan (double x){
