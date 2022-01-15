@@ -46,7 +46,7 @@ int main(){
 ```
 
 #### Kompilācijas rezultāti
-/ld2_roots/LD_2_grafiks_2.svg
+../ld2_roots/LD_2_grafiks_2.svg
 
 
 
