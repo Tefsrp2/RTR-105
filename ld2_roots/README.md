@@ -45,6 +45,9 @@ int main(){
 }
 ```
 
+#### Kompilācijas rezultāti
+/ld2_roots/LD_2_grafiks_2.svg
+
 
 
 ### Saite uz grafiku [Grafiks] https://github.com/Tefsrp2/RTR-105/blob/main/ld2_roots/LD_2_grafiks_2.svg
