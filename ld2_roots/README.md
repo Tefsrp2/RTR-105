@@ -1,3 +1,5 @@
+                                                                            #2. laboratorijas darbs
+									              ##Roots
 Koda risinājums
 ```
 #include <stdio.h>
