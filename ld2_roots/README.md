@@ -1,6 +1,6 @@
 # 2. laboratorijas darbs
 ## Roots
-Koda risinājums
+#### Koda risinājums
 ```
 #include <stdio.h>
 #include <math.h>
