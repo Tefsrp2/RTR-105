@@ -34,4 +34,4 @@ void main()
 #### Kompilācijas rezultāti
 ![This is an image](https://github.com/Tefsrp2/RTR-105/blob/main/ld3_derivative/ld_3_result%20(2).png)
 
-#### Saite uz grafiku [Grafiks] https://github.com/Tefsrp2/RTR-105/blob/main/ld3_derivative/LD_3_grafiks.svg
+#### [Saite uz grafiku](https://github.com/Tefsrp2/RTR-105/blob/main/ld3_derivative/LD_3_grafiks.svg)
