@@ -1,5 +1,5 @@
 # 3. laboratorijas darbs
-## skaitliskā diferencēšana
+## Skaitliskā diferencēšana
 
 #### Koda risinājums
 ```
