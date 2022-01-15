@@ -17,12 +17,12 @@
 }
 
 void main (){
-  double x = 0, y;
-	printf("atan(x) aprekinasana:\n");
+  double x, y;
+	printf("atan(-x) aprekinasana:\n");
 	printf("Ievadiet argumentu x, kurs ir pozitivs un mazaks par 1: ");
 	scanf("%lf\n", &x);
-	y = atan(x);
-	printf ("Atan(-x) vertiba: y = arctan (%.2f )=%.8f \n" ,x , y);
+	y = atan(-x);
+	printf ("Atan(-x) vertiba: y = arctan (%.2lf )=%.8lf \n" , x , y);
 
   printf(" \n");
 printf("\t                            500 \n");
