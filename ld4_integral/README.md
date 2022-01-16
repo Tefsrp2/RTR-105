@@ -73,7 +73,7 @@ printf("Integrala vertiba pec Simpsona metodes: %f\n", integr4);
 ![This is an image](https://github.com/Tefsrp2/RTR-105/blob/main/ld4_integral/ld_4_result.png)
 
 #### [Saite uz grafiku](https://github.com/Tefsrp2/RTR-105/blob/main/ld4_integral/LD_4_grafiks.svg)
-#### [Saite uz pierādījuma attēlu no WolfrAlpha kalkulatora](https://github.com/Tefsrp2/RTR-105/blob/main/ld4_integral/ld_4_pieradijums.png)
+#### [Saite uz pierādījuma attēlu no WolframAlpha kalkulatora](https://github.com/Tefsrp2/RTR-105/blob/main/ld4_integral/ld_4_pieradijums.png)
 
 #### Komentāri, secinājumi
 Kopumā labpratorijas darbu ir izdevies labi izpildīt. Izveidotā programma ir aprēķinājusi integrāļa vērtības visām trim metodēm. Salīdzinot rezultātus ar wolframAlpha kalkukatora rezultātiem (attēls pievienots laboratorijas darba mapē), var spriest, ka vistuvākais rezultāts ir iegūts izmantojot taisnstūra metodi, bet vistālāk atrodas rezultāts, kas ir iegūts, izmantojot Simpsona metodi, kas ir pretēji teorijai. tika gan izmantots diezgan neliels intervāls. Jāņem gan vērā, ka dotā funkcija atan(-x) ir definēta noteiktā definīcijas apgabalā, līdz ar to intervāls nevar būt ļoti liels. Papildus vēl ir pievienots funkcijas grafiks ar aizkrāsoto laukumu.
