@@ -1,5 +1,11 @@
 # 2. laboratorijas darbs
 ## Roots
+
+#### Risinājuma apraksts
+Šajā laboratorijas darbā tika apskatīta dihotmijas metode, lai dotajai funkcijai atrastu saknes.  
+text align: justify
+Dihotomijas metode ir saknes noteikšanas metode, kas attiecas uz visām nepārtrauktajām funkcijām , kurām ir zināmas divas vērtības ar pretējām zīmēm. Metode sastāv no šo vērtību definētā intervāla atkārtotas sadalīšanas uz pusēm un pēc tam atlasot apakšintervālu, kurā funkcija maina zīmi, un tāpēc tai ir jāsatur sakni. Tā ir ļoti vienkārša metode, taču tā ir arī salīdzinoši lēna. 
+
 #### Koda risinājums
 ```
 #include <stdio.h>
