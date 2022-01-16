@@ -1,6 +1,9 @@
 # 3. laboratorijas darbs
 ## Skaitliskā diferencēšana
 
+#### Risinājuma apraksts
+Skaitliskā dieferncēšana ir process, kurā tiek atrasta noteiktas funkcijas atvasinājuma skaitliskā vērtība noteiktā punktā. Laboratrijas darba norsises gaitā tika meklēti dotās funkcijas: atan(-x) pirmās un otrās kārtas atvasinājummi noteiktos punktos, kā skaitliskajam atvsinājumam, tā arī analītiskajai formulai.
+
 #### Koda risinājums
 ```
 #include <stdio.h>
@@ -35,3 +38,7 @@ void main()
 ![This is an image](https://github.com/Tefsrp2/RTR-105/blob/main/ld3_derivative/ld_3_result%20(2).png)
 
 #### [Saite uz grafiku](https://github.com/Tefsrp2/RTR-105/blob/main/ld3_derivative/LD_3_grafiks.svg)
+
+#### Komentāri, secinājumi
+Kopumā ir izdevies izpildīt šo laboratorijas darbu. Spriežot pēc grafikā attēlotjiem datiem, pirmās kārtas atvasinājumus programma ir aprēķinajusi pareizi, jo, atbilstoši lekcijā dotjajam teorijas materiālam, izpildās apgalvojums, ka iegūtās vērtības atrodas nelielā attālumā starp vienu un otru variantu. Tāpat ir pieejams derivative.dat fails, kurā ir attēlotas programmas izpildes gaitā iegūtās vērtības, kā arī grafiks, kurā salīdzinājumam, ir pieejams arī dotās funkcijas atan(-x) grafiks.
+
