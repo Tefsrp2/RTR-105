@@ -1,5 +1,5 @@
 # 2. laboratorijas darbs
-## Roots
+## Dihotomijas metode
 
 #### Risinājuma apraksts
 Šajā laboratorijas darbā tika apskatīta dihotmijas metode, lai dotajai funkcijai: atan(-x) atrastu saknes.  
