@@ -1,4 +1,10 @@
-Koda risinājums
+# 5. laboratorijas darbs
+## Skaitļu kopas kārtošana un statistika
+
+#### Risinājuma apraksts 
+Šajā laboratorijas darbā tika apskatīta skaitļu kārtošanas un statistikas elementi - maksimālā, minimālā vērtība, vidējā vērtība, kā arī moda (visbiežāk sastopamā vērtība) un mediāna (vidējais elements(i) rindā). Lai programma veiktu šo elementu izpildi, tika izmantota burbuļa metode, kuru var saukt arī par to pašu kārtošanu. Metodes darbību var aprakstīt šādi: vairākas reizes algoritms izizet cauri sarakstam, salīdzina blakus esošos elementus un apmaina tos, ja tie atrodas nepareizā secībā. Šāds algoritms tiek atkārots, līdz brīdim, kad saraksts tiek sakārots. 
+
+#### Koda risinājums
 ```
 #include <stdio.h>
 
@@ -66,3 +72,5 @@ void printArray(int rinda[], int size){
 	}
 }
 ```
+#### Komentāri, secinājumi
+Kopumā izmantojot burbuļa metodi jeb kārtošanu, maksimālā un minimālā vērtība, kā arī mediāna, šie statistikas elementi ir iegūti pareizi, ja programmas algoritmā neievieto vidējās vērtības aprēķina formulu, kur iegūšanai izmanto elementu summu, kuru iegūst, summu pieskaitot rindas elementu masīvam, atbilstoši lekcijā dotajam teorijas materiālam, un iegūto rezultātu dalot ar elementu skaitu. Šī elementa aprēķina formulu, kompilators neizpildīja pareizi, līdz ar to ietekmēja pārējo rezultātu vērtības.
