@@ -1,4 +1,10 @@
-Koda risinājums
+# 1. laboratorijas darbs
+## Teilora rindas
+
+#### Risinājuma apraksts
+Matemātikā Teilora rindas ir bezgalīga terminu summa, kas vienā punktā ir izteikta kā funkcijas atvasinājumi. Šajā laboratorijas darbā tiek meklēta dotās funkcijas atan(-x) vērtība. Tiek izmantoti šādi elementi. Rekurences reizinātāja aprēķins, kā arī virknes elementu summas aprēķins. 
+
+#### Koda risinājums
 ```
 #include <stdio.h>
 #include <math.h>
@@ -32,7 +38,7 @@ printf("\t                           ______                                    k
 printf("\t                           \                                  /    2 \      \n");
 printf("\t               ~     -x     \        (2*k)!                  |   x   |      \n");
 printf("\t       atan(x) - ___________ \     ____________________      | ______|       \n");
-printf("\t                  _______   * >         2   k             *  |    2  | , visiem |x| =< 1    \n");
+printf("\t                  _______   * >         2   k             *  |    2  | ,   \n"); //visiem |x|=<1
 printf(" \t                /      2    /      (k!) * 4 * (2*k+1)       | 1+x   |                \n");
 printf("\t               \/ 1 + x     /                                 \     /                   \n");
 printf("\t                           /_____                                                         \n");
@@ -47,3 +53,7 @@ printf(" \t                         2*k*(2*k+1)   1+x                \n");
 printf("\t                                                     \n");
 }
 ```
+#### [Saite uz grafiku](https://github.com/Tefsrp2/RTR-105/blob/main/ld1_series/LD_1_grafiks_2.svg)
+
+#### Komentāri, secinājumi
+Kopumā atan(-x) vērtība ir noteikta pareizi. Ievadot šādu vērtību kalkulatorā, tā sakrīt ar programmā atgriezto vērtību. Vienīgi nav izdevies attēlot ar ASCII zīmēšanu funkcijas un rekurences reizinātāja formulas. Nedaudz augstāk ir pievienota saite uz daotās funkcijas atan(-x) grafiku. Teksta komentāra veidā ir uzrakstīts arī funkcijas definīcijas apgabals.
