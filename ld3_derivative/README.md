@@ -2,7 +2,7 @@
 ## Skaitliskā diferencēšana
 
 #### Risinājuma apraksts
-Skaitliskā dieferncēšana ir process, kurā tiek atrasta noteiktas funkcijas atvasinājuma skaitliskā vērtība noteiktā punktā. Laboratrijas darba norsises gaitā tika meklēti dotās funkcijas: atan(-x) pirmās un otrās kārtas atvasinājummi noteiktos punktos, kā skaitliskajam atvsinājumam, tā arī analītiskajai formulai.
+Skaitliskā dieferncēšana ir process, kurā tiek atrasta noteiktas funkcijas atvasinājuma skaitliskā vērtība noteiktā punktā. Laboratrijas darba norsises gaitā tika meklēti dotās funkcijas: atan(-x) pirmās un otrās kārtas atvasinājumi noteiktos punktos, kā skaitliskajam atvsinājumam, tā arī analītiskajai formulai.
 
 #### Koda risinājums
 ```
