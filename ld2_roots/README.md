@@ -58,4 +58,4 @@ int main(){
 #### [Saite uz grafiku](https://github.com/Tefsrp2/RTR-105/blob/main/ld2_roots/LD_2_grafiks_2.svg)
 
 #### Komentāri, secinājumi
-Izmantojot dihotomiijas metodi, ir izdevies atrast sakni, ko ir iespējams apskatīt grafikā. Saite uz grafiku ir pievienota nedaudz augstāk. 
+Izmantojot dihotomiijas metodi, ir izdevies atrast sakni, ko ir iespējams apskatīt grafikā. Saite uz grafiku, kurā ir atzīmēts arī saknes punkts, ir pievienota nedaudz augstāk.
